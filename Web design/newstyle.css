@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 90vh;
+  background-image: url("education2.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #161616;
+  width: 100%;
+  margin: 0 auto;
+
+  height: 69px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+.icon {
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f9545b;
+}
+
+.logo {
+  float: left;
+  margin-left: 60px;
+}
+
+.logo h1 {
+  color: #1d8ead;
+  font-family: inherit;
+  text-transform: uppercase;
+}
+
+.list {
+  margin-left: 260px;
+}
+
+.item-list {
+  margin-left: 235px;
+}
+
+.item-list a {
+  line-height: 80px;
+
+  font-family: Arial;
+  color: rgb(12, 11, 12);
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  padding: 2px 10px 2px 4px;
+  text-transform: uppercase;
+}
+
+#button:hover {
+  background-color: white;
+  color: black;
+}
+
+a:hover {
+  color: aqua;
+}
+
+.menu {
+  position: absolute;
+
+  height: 30px;
+  left: 468px;
+  text-align: center;
+  margin-top: 213px;
+  padding: 2px 10px 2px 4px;
+  font-family: Arial;
+  float: center;
+}
+
+.school {
+  text-align: center;
+  margin-top: 0px;
+  padding: 2px 10px 2px 4px;
+  font-family: Arial;
+}
+
+#far {
+  font-weight: 1000;
+  color: rgb(12, 11, 12);
+  font-size: 20px;
+}
+.menu h2 {
+  font-size: 42px;
+  font-family: sans-serif;
+  color: #fff;
+}
+h2 {
+  font-size: 42px;
+  font-family: sans-serif;
+  color: black;
+}
+h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #db0510;
+}
+
+#fluid {
+  font-weight: 900;
+  position: absolute;
+  text-align: center;
+  left: 650px;
+  color: whitesmoke;
+  bottom: 35px;
+}
+#hello {
+  font-weight: 1300;
+  margin-top: 15px;
+  font-size: 36px;
+}
+.link {
+  margin: 0;
+  padding: 0;
+  height: 44vh;
+}
+/* .link1 {
+  position: relative;
+  border: 1px solid black;
+  width: 200px;
+  left: 115px;
+  height: 220px;
+  top: 62px;
+  -moz-box-shadow: 4px 4px 4px black;
+  -webkit-box-shadow: 4px 4px 4px black;
+  box-shadow: 4px 4px 4px black;
+}
+.link {
+    cursor: pointer;
+    background: #00000050;
+}
+.link2 {
+  position: relative;
+  border: 1px solid black;
+  width: 200px;
+  left: 537px;
+  top: -168px;
+  height: 225px;
+  -moz-box-shadow: 4px 4px 4px black;
+  -webkit-box-shadow: 4px 4px 4px black;
+  box-shadow: 4px 4px 4px black;
+}
+.link3 {
+  position: relative;
+  border: 1px solid black;
+  width: 200px;
+  left: 946px;
+  top: -397px;
+  height: 225px;
+  -moz-box-shadow: 4px 4px 4px black;
+  -webkit-box-shadow: 4px 4px 4px black;
+  box-shadow: 4px 4px 4px black;
+} */
+ .link1 {
+  position: relative;
+  border: 1px solid black;
+  width: 200px;
+  top: 62px;
+  -moz-box-shadow: 4px 4px 4px black;
+  -webkit-box-shadow: 4px 4px 4px black;
+  box-shadow: 4px 4px 4px black;
+}
+.link1:first-child{
+    
+  left: 115px;
+  top: 62px;
+}
+.link1:nth-child(2){
+    
+  top: -168px;
+  left: 537px;
+}
+.link1:last-child{
+    
+  left: 946px;
+  top: -397px;
+}
+.link1:first-child::after{
+    content: "";
+    position: absolute;
+    left: 300px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #000;
+    
+}
+span {
+  color: #db0510;
+}
+
+.link a {
+  text-decoration: none;
+  color: red;
+}
+.link a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+.menu p {
+  color: #ffff;
+}
+.input-text:hover{
+background: green;
+}
+.input-text:active{
+    background: blue;
+}
+.input-text:focus{
+    background: yellow;
+}
+.hi:hover{
+    background-color: grey;
+    display: block;
+}
+.list-items{
+    /* display:none; */
+    width: 0px;
+    background: gray;
+}
+.dropdown-wrapper{
+    height: 200px;
+}
+ .list-items:hover{
+    width: 100px;
+  display: block;
+  transition:width 2s;  
+  -webkit-transition: width 2s;
+}
